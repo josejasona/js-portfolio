@@ -1,15 +1,10 @@
 import React from "react";
-import { NavigationBar } from "./navigation-bar";
+import { NavigationMenuDemo } from "./navigation-bar";
 
-export interface LayoutProps {
-    children: React.ReactNode;
-    }
-
-
-export function Layout({ }: LayoutProps) { 
+export function Layout() {
   return (
-    <>
-      <NavigationBar />
-    </>
+    <div className="flex px-64 py-64">
+      <NavigationMenuDemo />
+    </div>
   );
 }
