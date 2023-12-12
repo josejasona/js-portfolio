@@ -1,5 +1,5 @@
 import React from "react";
-import { NavigationMenuDemo } from "./navigation-bar";
+import { NavigationMenuDemo } from "./navigation-menu";
 
 export function Layout() {
   return (
